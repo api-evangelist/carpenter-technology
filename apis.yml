@@ -1,7 +1,12 @@
 aid: carpenter-technology
-url: https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.carpenter-technology.com
+description: >-
+  Carpenter Technology is a producer and distributor of premium specialty alloys,
+  including titanium alloys, powder metals, and stainless steels, serving aerospace,
+  defense, transportation, energy, industrial, and medical end markets.
