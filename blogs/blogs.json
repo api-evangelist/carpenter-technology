@@ -1,0 +1,13 @@
+{
+  "repo": "carpenter-technology",
+  "feeds": [
+    {
+      "source": "https://www.carpentertechnology.com/blog",
+      "feed_url": "https://www.carpentertechnology.com/blog/rss.xml",
+      "saved": 10,
+      "title": "Carpenter Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:24:55Z"
+}
