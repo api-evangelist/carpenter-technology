@@ -2,13 +2,20 @@
   "repo": "carpenter-technology",
   "feeds": [
     {
-      "source": "https://www.carpentertechnology.com/blog",
+      "source": "https://www.carpentertechnology.com/blog/atom.xml",
       "feed_url": "https://www.carpentertechnology.com/blog/atom.xml",
-      "title": "Carpenter Blog",
+      "title": "",
       "saved": 0,
-      "last_error": "http_404"
+      "method": "feed"
+    },
+    {
+      "source": "https://www.carpentertechnology.com/careers",
+      "feed_url": "https://www.carpentertechnology.com/careers",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 15,
+  "fetched": "2026-06-01T23:35:02Z"
 }
