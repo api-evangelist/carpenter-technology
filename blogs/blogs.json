@@ -2,11 +2,11 @@
   "repo": "carpenter-technology",
   "feeds": [
     {
-      "source": "https://www.carpentertechnology.com/blog",
+      "source": "https://www.carpentertechnology.com/blog/rss.xml",
       "feed_url": "https://www.carpentertechnology.com/blog/rss.xml",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "feed"
     },
     {
       "source": "https://www.carpentertechnology.com/careers",
@@ -17,5 +17,5 @@
     }
   ],
   "post_count": 15,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z"
 }
