@@ -1,0 +1,97 @@
+generated: '2026-09-05'
+method: probed
+source: >-
+  Live HTTP probes of the named /.well-known/ path list on every host this record knows —
+  the registrable domain, www, the investor-relations host, and the Carpenter Additive brand
+  host. No baseURL or OpenAPI servers[] host exists for this provider (apis[] is empty).
+note: >-
+  RECORDED ABSENCE. Every named path missed on every host. www.carpentertechnology.com and
+  www.carpenteradditive.com are one HubSpot CMS estate and return the site 404 template for
+  all five paths. ir.carpentertechnology.com is a Q4 Inc. investor-relations platform behind
+  Cloudflare that answers HTTP 200 with the four-word body "Invalid key" for EVERY
+  /.well-known/* path — a catch-all soft-200, not a document, and explicitly treated as a
+  miss. NO WellKnown / SecurityTxt / APICatalog pointer is wired in apis.yml, because
+  nothing here is served.
+hosts:
+  - host: www.carpentertechnology.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: carpentertechnology.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: ir.carpentertechnology.com
+    note: >-
+      Soft-200 catch-all. Every path returns HTTP 200 with the body "Invalid key" (11 bytes,
+      text/plain). Scored as absent — a 200 that is not a document is not a hit.
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        served: false
+        body: Invalid key
+      - path: /.well-known/openid-configuration
+        status: 200
+        served: false
+        body: Invalid key
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        served: false
+        body: Invalid key
+      - path: /.well-known/api-catalog
+        status: 200
+        served: false
+        body: Invalid key
+      - path: /.well-known/ai-plugin.json
+        status: 200
+        served: false
+        body: Invalid key
+      - path: /.well-known/agent-card.json
+        status: 200
+        served: false
+        body: Invalid key
+      - path: /.well-known/agent.json
+        status: 200
+        served: false
+        body: Invalid key
+  - host: www.carpenteradditive.com
+    note: Carpenter Additive is a Carpenter Technology brand; same HubSpot CMS estate.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404

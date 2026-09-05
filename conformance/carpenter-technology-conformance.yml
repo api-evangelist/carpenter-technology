@@ -1,0 +1,71 @@
+generated: '2026-09-05'
+method: searched
+source: https://www.carpentertechnology.com/quality-assurance-and-control
+note: >-
+  SCOPE WARNING — read this before using these entries. Carpenter Technology publishes NO API
+  contract, so there is no spec to assert API/protocol conformance against (no OAuth2, OIDC,
+  OData, SCIM, RFC 9457, JSON:API, pagination or idempotency claim exists to test). What the
+  company DOES publish, on a public page, is its manufacturing and laboratory quality-management
+  accreditation set. Those are the entries below. They are product- and process-quality
+  certifications, NOT information-security attestations: Carpenter publishes no SOC 2, ISO/IEC
+  27001, PCI DSS, HIPAA or FedRAMP claim anywhere we could find, and none is asserted here.
+subject: Carpenter Technology Corporation — corporate quality management system
+domain_standard_conformance:
+  applies: false
+  note: >-
+    Reward-only check. Specialty-alloy manufacturing has no machine-readable API domain
+    standard in scoring.yml, and Carpenter ships no contract that could declare one. No
+    conformance is invented to fill the slot.
+conformance:
+  - id: iso-9001
+    name: ISO 9001 — Quality management systems
+    conforms: true
+    scope: Corporate quality management system, single-source QMS manual used at 20 sites worldwide.
+    evidence: https://www.carpentertechnology.com/quality-assurance-and-control
+    evidence_status: 200
+  - id: iso-13485
+    name: ISO 13485 — Medical devices, quality management systems
+    conforms: true
+    scope: >-
+      Medical end market. Relevant to the `health` regulatory regime this provider matches on
+      tags — ISO 13485 is the medical-device QMS standard.
+    evidence: https://www.carpentertechnology.com/quality-assurance-and-control
+    evidence_status: 200
+  - id: iso-17025
+    name: ISO/IEC 17025 — Testing and calibration laboratory competence
+    conforms: true
+    scope: Materials testing laboratories.
+    evidence: https://www.carpentertechnology.com/quality-assurance-and-control
+    evidence_status: 200
+  - id: as9100
+    name: AS9100 — Aerospace quality management system
+    conforms: true
+    scope: Aerospace and defense manufacturing.
+    evidence: https://www.carpentertechnology.com/quality-assurance-and-control
+    evidence_status: 200
+  - id: as9120
+    name: AS9120 — Aerospace quality management for stockist distributors
+    conforms: true
+    scope: Aerospace distribution.
+    evidence: https://www.carpentertechnology.com/quality-assurance-and-control
+    evidence_status: 200
+  - id: nadcap
+    name: Nadcap special process accreditation
+    conforms: true
+    scope: Heat treating, materials testing laboratory, nondestructive testing.
+    evidence: https://www.carpentertechnology.com/quality-assurance-and-control
+    evidence_status: 200
+customer_approvals:
+  - GE Aerospace (General Electric Aircraft Engine)
+  - Rolls-Royce
+  - Pratt & Whitney
+not_published:
+  - id: soc2
+    conforms: false
+    evidence: 'Searched carpentertechnology.com; no SOC 2 report, trust center or attestation page found.'
+  - id: iso-27001
+    conforms: false
+    evidence: 'Searched carpentertechnology.com; no ISO/IEC 27001 certificate or claim found.'
+  - id: security-txt
+    conforms: false
+    evidence: 'https://www.carpentertechnology.com/.well-known/security.txt returned 404.'

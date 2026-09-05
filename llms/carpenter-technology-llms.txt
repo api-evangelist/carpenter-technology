@@ -1,0 +1,68 @@
+# Carpenter Technology Corporation
+
+> Carpenter Technology Corporation (NYSE: CRS) is a U.S. producer and distributor of premium
+> specialty alloys — titanium alloys, powder metals, high-temperature stainless steels, tool
+> steels and soft magnetic alloys — serving the aerospace, defense, medical, transportation,
+> energy and industrial end markets. Carpenter publishes NO public developer API, no OpenAPI,
+> AsyncAPI, GraphQL or MCP surface, and no developer portal. The machine-useful surface it does
+> publish is product and materials reference data on its website.
+
+## Important for agents
+
+- There is no public API, SDK, webhook or MCP server for Carpenter Technology. Do not construct
+  endpoint URLs against carpentertechnology.com — probed 2026-09-05: /openapi.json,
+  /openapi.yaml, /swagger.json, /v1/openapi.json, /api-docs, /api/openapi.json, /redoc,
+  /graphql and /llms.txt all return HTTP 404 on both carpentertechnology.com and
+  www.carpentertechnology.com, and the same paths miss on www.carpenteradditive.com.
+- No /.well-known document is served on any Carpenter host. ir.carpentertechnology.com answers
+  HTTP 200 with the body "Invalid key" for every /.well-known/* path; that is a catch-all, not
+  a document.
+- The "Log In" link is a HubSpot CMS membership gate for content and account self-service. It
+  is not an API credential issuer and there is no documented API behind it.
+- Ordering, quoting and technical support are human channels: use the contact page.
+
+## Product and materials reference
+
+- [Alloy Finder](https://www.carpentertechnology.com/alloy-finder): searchable index of Carpenter
+  specialty alloys with technical datasheets. HTML only; no JSON endpoint is published.
+- [Products](https://www.carpentertechnology.com/products): downloadable product list.
+- [Markets](https://www.carpentertechnology.com/markets): aerospace, defense, medical, energy,
+  transportation, industrial and consumer end markets.
+- [Resources](https://www.carpentertechnology.com/resources): white papers, case studies,
+  technical guides, conversion tables, weight charts, brochures, webinars.
+- [Video Library](https://www.carpentertechnology.com/video-library)
+- [Innovation](https://www.carpentertechnology.com/innovation)
+- [Customer Solutions](https://www.carpentertechnology.com/customer-solutions)
+
+## Quality and compliance
+
+- [Quality Assurance and Control](https://www.carpentertechnology.com/quality-assurance-and-control):
+  ISO 9001, ISO 13485, ISO/IEC 17025, AS9100, AS9120 and Nadcap (heat treating, materials
+  testing, nondestructive testing) accreditations across 20 sites; approvals from GE Aerospace,
+  Rolls-Royce and Pratt & Whitney. These are manufacturing and laboratory quality certifications.
+  Carpenter publishes no SOC 2, ISO/IEC 27001 or other information-security attestation.
+
+## Company
+
+- [Home](https://www.carpentertechnology.com)
+- [About Us](https://www.carpentertechnology.com/about)
+- [Blog — materials science news](https://www.carpentertechnology.com/blog)
+- [Sustainability](https://www.carpentertechnology.com/sustainability/overview)
+- [Investor Relations](https://ir.carpentertechnology.com)
+- [Careers](https://www.carpentertechnology.com/careers)
+- [Contact](https://www.carpentertechnology.com/contact-us)
+- [LinkedIn](https://www.linkedin.com/company/carpenter-technology)
+- [Carpenter Additive (brand)](https://www.carpenteradditive.com)
+
+## Legal
+
+- [Terms of Use](https://www.carpentertechnology.com/terms-of-use)
+- [Privacy Policy](https://www.carpentertechnology.com/privacy-policy)
+- [Legal Information](https://www.carpentertechnology.com/legal)
+
+## Provenance
+
+Generated 2026-09-05 by the API Evangelist enrichment pipeline from this repository's apis.yml
+and probed artifacts (well-known/, conformance/, security/). Carpenter Technology does not serve
+an llms.txt of its own: https://www.carpentertechnology.com/llms.txt returns HTTP 404.
+Source of record: https://github.com/api-evangelist/carpenter-technology

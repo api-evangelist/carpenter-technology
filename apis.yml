@@ -45,7 +45,7 @@ tags:
   - Materials Science
   - Fortune 1000
 created: '2026-03-23'
-modified: '2026-04-23'
+modified: '2026-09-05'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/apis.yml
 specificationVersion: '0.23'
@@ -53,29 +53,86 @@ apis: []
 common:
   - type: DomainSecurity
     url: security/carpenter-technology-domain-security.yml
+  - type: Conformance
+    url: conformance/carpenter-technology-conformance.yml
+  - type: Compliance
+    name: Quality and management-system certifications
+    url: conformance/carpenter-technology-conformance.yml
+    description: >-
+      ISO 9001, ISO 13485, ISO/IEC 17025, AS9100, AS9120 and Nadcap accreditations published on
+      carpentertechnology.com. Manufacturing and laboratory quality certifications — Carpenter
+      publishes no SOC 2 or ISO/IEC 27001 attestation.
+  - type: LLMsTxt
+    url: llms/carpenter-technology-llms.txt
   - type: LinkedIn
     url: https://www.linkedin.com/company/carpenter-technology
   - type: Website
     url: https://www.carpentertechnology.com
   - type: About
-    url: https://www.carpentertechnology.com/about-us
+    url: https://www.carpentertechnology.com/about
   - type: InvestorRelations
     url: https://ir.carpentertechnology.com
   - type: AlloyFinder
     name: Carpenter Alloy Finder
     url: https://www.carpentertechnology.com/alloy-finder
     description: Product selection tool for Carpenter Technology specialty alloys.
-  - type: ResourceLibrary
-    url: https://www.carpentertechnology.com/resource-library
+  - type: KnowledgeCenter
+    name: Resource Library
+    url: https://www.carpentertechnology.com/resources
+    description: >-
+      White papers, case studies, technical guides, conversion tables, weight charts and
+      product brochures.
+  - type: Solutions
+    name: Customer Solutions
+    url: https://www.carpentertechnology.com/customer-solutions
+  - type: Certification
+    name: Quality Assurance and Control
+    url: https://www.carpentertechnology.com/quality-assurance-and-control
+    description: >-
+      ISO 9001, ISO 13485, ISO/IEC 17025, AS9100, AS9120 and Nadcap accreditations across 20
+      sites; approvals from GE Aerospace, Rolls-Royce and Pratt & Whitney.
+  - type: Sustainability
+    url: https://www.carpentertechnology.com/sustainability/overview
   - type: Login
     name: Customer / Member Login
     url: https://www.carpentertechnology.com/_hcms/mem/login
+    description: >-
+      HubSpot CMS membership gate for gated content and account self-service. Not an API
+      credential issuer; no API is documented behind it.
   - type: Contact
     url: https://www.carpentertechnology.com/contact-us
   - type: Careers
     url: https://www.carpentertechnology.com/careers
   - type: Blog
     url: https://www.carpentertechnology.com/blog
+  - type: TermsOfService
+    url: https://www.carpentertechnology.com/terms-of-use
+  - type: PrivacyPolicy
+    url: https://www.carpentertechnology.com/privacy-policy
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Carpenter Technology sells physical specialty alloys — its entire web estate is a HubSpot
+    CMS marketing site whose only login is a HubSpot membership content gate, and every spec
+    and /.well-known path probed on carpentertechnology.com, www.carpentertechnology.com,
+    ir.carpentertechnology.com and www.carpenteradditive.com returned 404 or a "Invalid key"
+    catch-all, with no developer portal, GitHub organization or SDK anywhere.
+  evidence:
+    - url: https://www.carpentertechnology.com/openapi.json
+      status: 404
+    - url: https://www.carpentertechnology.com/.well-known/api-catalog
+      status: 404
+    - url: https://www.carpentertechnology.com/developers
+      status: 404
+    - url: https://api.github.com/orgs/carpentertechnology
+      status: 404
+  checked: '2026-09-05'
