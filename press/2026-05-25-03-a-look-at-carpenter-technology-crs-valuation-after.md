@@ -1,7 +1,9 @@
 ---
 title: A Look At Carpenter Technology (CRS) Valuation After ...
 url: https://finance.yahoo.com/news/look-carpenter-technology-crs-valuation-151330338.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Carpenter Technology" press release artificial intelligence'
 position: 3
 source: serpapi-google

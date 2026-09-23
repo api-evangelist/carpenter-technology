@@ -1,7 +1,9 @@
 ---
 title: 'Carpenter Technology: This Stock Will Melt Up'
 url: https://www.barrons.com/articles/carpenter-technology-stock-melt-up-b57d0b6e
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Carpenter Technology" press release artificial intelligence'
 position: 1
 source: serpapi-google
