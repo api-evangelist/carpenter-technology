@@ -1,4 +1,4 @@
-# Carpenter Technology (carpenter-technology)
+# Carpenter Technology
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,53 +66,80 @@
 
 Carpenter Technology Corporation is a U.S.-based producer and distributor of premium specialty alloys — including titanium alloys, powder metals, high-temperature stainless steels, tool steels, and soft magnetic alloys — serving the aerospace, defense, medical, transportation, energy, and industrial end markets. The company supports customers through technical product resources such as its Alloy Finder, alloy technical data sheets, conversion tables, and a member-only Customer Portal for order and account self-service, but does not currently publish a public developer API.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/apis.yml)
+**Areas:** Specialty Alloys · Titanium · Stainless Steel · Aerospace · Defense · Medical · Materials Science · Fortune 1000
 
-## Scope
+## Carpenter Technology on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Carpenter Technology is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/carpenter-technology/](https://apis.io/providers/carpenter-technology/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
- - Specialty Alloys, Titanium, Stainless Steel, Aerospace, Defense, Medical, Materials Science, Fortune 1000
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2026-03-23
-- **Modified:** 2026-04-23
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Carpenter Technology Domain Security](https://apis.io/security/carpenter-technology/carpenter-technology-domain-security/)
 
-No public developer APIs have been documented for Carpenter Technology at this time. Carpenter's current digital integration surface is focused on:
+## Where to find this API
 
-- Authenticated customer and distributor account access via a members-only portal (order tracking, account management, mill certifications).
-- Technical product lookup via the web-based Alloy Finder and technical data sheet library.
-- Investor relations data feeds via the IR site.
-
-If a public API, partner portal, or EDI specification becomes available (for example for order placement, mill certificate retrieval, or inventory lookup), contributions are welcome.
-
-## Use Cases
-
-- Alloy selection and materials research — engineers use the Alloy Finder and technical library to identify alloys meeting mechanical, corrosion, and thermal requirements for aerospace, medical, or energy applications.
-- Customer order self-service — authenticated customers use the Customer Portal to view orders, certifications, and account activity.
-- Investor and analyst workflows — public filings, earnings, and press releases surfaced through the Investor Relations property.
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.carpentertechnology.com)
-- [About](https://www.carpentertechnology.com/about-us)
-- [Investor Relations](https://ir.carpentertechnology.com)
-- [Alloy Finder](https://www.carpentertechnology.com/alloy-finder)
-- [Resource Library](https://www.carpentertechnology.com/resource-library)
-- [Customer / Member Login](https://www.carpentertechnology.com/_hcms/mem/login)
-- [Contact](https://www.carpentertechnology.com/contact-us)
-- [Careers](https://www.carpentertechnology.com/careers)
 - [Blog](https://www.carpentertechnology.com/blog)
+- [Terms of service](https://www.carpentertechnology.com/terms-of-use)
+- [Privacy policy](https://www.carpentertechnology.com/privacy-policy)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 17.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** info@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 42.1 |
+
+**Agent readiness 2.9** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/carpenter-technology/](https://apis.io/providers/carpenter-technology/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Carpenter Technology: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/carpenter-technology/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
