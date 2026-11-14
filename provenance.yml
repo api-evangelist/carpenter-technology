@@ -5,6 +5,12 @@ artifacts:
   conformance/carpenter-technology-conformance.yml:
     method: searched
     evidence: declared in the artifact
+  data-license/carpenter-technology-data-license.yml:
+    method: harvested
+    evidence: declared in the artifact
+  eligibility/carpenter-technology-eligibility.yml:
+    method: harvested
+    evidence: declared in the artifact
   front-door-ai/2026-09-17.yml:
     method: unknown
     evidence: no authorship recorded
@@ -14,10 +20,13 @@ artifacts:
   heartbeat/2026-11-06.yml:
     method: unknown
     evidence: no authorship recorded
+  heartbeat/2026-11-13.yml:
+    method: unknown
+    evidence: no authorship recorded
   kin/checks-2026-10-23T222754.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
-  kin/checks-2026-11-02T082323.yml:
+  kin/checks-2026-11-06T143934.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-09-23T000603.yml:
@@ -83,6 +92,9 @@ artifacts:
   kin/score-2026-11-02T082323.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-11-06T143934.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
   llms/carpenter-technology-llms.txt:
     method: searched
     evidence: 'derive-llms-provenance.py: harvested'
@@ -101,6 +113,9 @@ artifacts:
   press/2026-05-25-05-carpenter-technologys-new-500-million-steel-alloy-mill.md:
     method: unknown
     evidence: no authorship recorded
+  privacy/carpenter-technology-privacy-policy.yml:
+    method: harvested
+    evidence: declared in the artifact
   search/2026-05-25-01-carpenter-technology-global-leader-in-specialty-alloys.md:
     method: unknown
     evidence: no authorship recorded
@@ -119,6 +134,9 @@ artifacts:
   security/carpenter-technology-domain-security.yml:
     method: unknown
     evidence: no authorship recorded
+  terms/carpenter-technology-terms-of-service.yml:
+    method: harvested
+    evidence: declared in the artifact
   well-known/carpenter-technology-well-known.yml:
     method: unknown
     evidence: no authorship recorded
